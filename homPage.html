@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Reading Panda </title>
+        <!-- meta tags-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">       
+        <!-- Bootstrap frame work css -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="shortcut icon" type="image/png" href="logo1.png">
+            <style>
+                .carousel-inner img {
+                    width: 100%;
+                    height: 375px;
+                }
+                .carousel-control-prev-icon, .carousel-control-next-icon {
+                        height: 35px;
+                        width: 35px;
+                        outline: black;
+                        background-color: rgba(0, 0, 0, 0.3);
+                        background-size: 25% 25%;
+                        border-radius: 50%;                      
+                    }
+                    .navbar-right {
+                        padding-left: 900px;
+                    }
+            </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm bg-white">
+            <a class="navbar-brand" href="homPage.html"><img src="logo.png" height="50" width="55"></a>  
+                <ul class="navbar-nav">
+             		 <li class="nav-item">    
+                 		 <h1 style="font-family:cursive; background-color:white;"><b>Reading Panda</b> </h1>               
+              		</li>
+            	</ul>
+            	<ul class="nav navbar-nav navbar-right">
+                	<li><a href="NewFile.jsp">Login</a></li>
+             	</ul>
+          </nav>
+     	<!--carousel -->
+           <div id="demo" class="carousel slide" data-ride="carousel">
+               <!-- Indicators -->
+                <ul class="carousel-indicators">
+                 	<li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                </ul>                    
+         <!-- The slideshow -->
+            <div class="carousel-inner">
+            	<div class="carousel-item active">
+                	<a href="genre1.jsp"><img src="Genre.jpg" alt="Genre"></a>
+                 </div>                        
+                 <div class="carousel-item">
+                 	<a href="mood1.jsp" id="mood"><img src="mood.jpg" alt="Mood"></a>
+                 </div>
+                 <div class="carousel-item">
+                 	<a href="author1.jsp"><img src="author12.jpg" alt="books"></a>
+                 </div>
+             </div>                    
+           <!-- Left and right controls -->
+             <a class="carousel-control-prev" href="#demo" data-slide="prev">
+             	<span class="carousel-control-prev-icon"></span>
+             </a>
+             <a class="carousel-control-next" href="#demo" data-slide="next">
+             	<span class="carousel-control-next-icon" style="color:black;"></span>
+             </a>
+            </div>
+          
+        <!-- Java script -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    </body>
+</html>
